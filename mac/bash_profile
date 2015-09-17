@@ -1,0 +1,22 @@
+
+#格式：
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
+#ndk
+export PATH=${PATH}:/usr/local/Cellar/android-ndk/r10d
+export A_NDK_ROOT=/usr/local/Cellar/android-ndk/r10d
+ 
+#adb
+ANDROID_HOME=/Users/gary/Mine/Program/studio/android-sdk-macosx
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+#export PATH=${PATH}:/Users/gary/Mine/Program/studio/android-sdk-macosx/platform-tools
+ 
+#find command
+alias find=/usr/bin/find\ .
+#grep command
+alias grep='grep -n --color=auto'
+ 
+#dex2jar
+export PATH=${PATH}:/usr/local/Cellar/dex2jar/2.0/libexec:

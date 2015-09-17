@@ -1,0 +1,20 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[user]
+	name = yswheye
+	email = yswheye@gmail.com
+[alias]
+	co = checkout
+	cm = commit
+	cma = commit -a
+	cmm = commit -m
+	st = status
+	pl = pull
+	ps = push
+	dt = difftool
+	b = branch
+	r = remote
+[push]
+	default = simple
