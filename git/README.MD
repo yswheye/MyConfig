@@ -10,7 +10,7 @@
 ####数据库
 * //greenDao(ORM)
 * //Afinal
-* //Litepal
+* Litepal, https://github.com/LitePalFramework/LitePal
 * LiteOrm还算比较好用
 * //Realm是一个可以替代Sqlite以及ORMlibraries的轻量级数据库，相比SQLite，Realm更快并且具有很多现代数据库的特性，比如支持JSON，流式api，数据变更通知，以及加密支持，这些都为安卓开发者带来了方便。
 
