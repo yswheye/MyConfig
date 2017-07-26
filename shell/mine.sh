@@ -114,3 +114,7 @@ case $x in
    cmd
    cmd;;
 esac
+
+#shell文件引用
+. filename
+source filename
